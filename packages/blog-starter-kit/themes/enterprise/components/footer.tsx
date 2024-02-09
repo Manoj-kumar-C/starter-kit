@@ -24,7 +24,7 @@ export const Footer = () => {
 						<b>Fresh Spar Technologies</b>
 					</p>
 				)}
-				
+				<SocialLinks />
 			</Container>
 		</footer>
 	);
