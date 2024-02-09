@@ -18,7 +18,7 @@ export const PublicationLogo = ({ isSidebar }: { isSidebar?: boolean }) => {
 		<h1 className="relative w-full">
 			<Link
 				href={'/'}
-				aria-label={`${publication.title} blog home page`}
+				aria-label={`Fresh Spar blog home page`}
 				className="flex flex-row items-center justify-center gap-3"
 			>
 				{PUBLICATION_LOGO ? (
@@ -36,7 +36,7 @@ export const PublicationLogo = ({ isSidebar }: { isSidebar?: boolean }) => {
 							isSidebar ? 'text-black dark:text-white' : 'text-white md:text-4xl'
 						}`}
 					>
-						{publication.title}
+						Fresh Spar Technologies
 					</span>
 				)}
 			</Link>
