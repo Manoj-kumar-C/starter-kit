@@ -20,9 +20,7 @@ export const Footer = () => {
 						</Link>
 					</div>
 				) : (
-					<p className="mb-20 text-center text-xl font-semibold text-slate-900 dark:text-slate-50 md:text-4xl">
-						<b><i>Fresh Spar Technologies</i></b>
-					</p>
+					
 				)}
 				<SocialLinks />
 			</Container>
