@@ -20,7 +20,7 @@ export const Footer = () => {
 						</Link>
 					</div>
 				) : (
-					
+					<p>.</p>
 				)}
 				<SocialLinks />
 			</Container>
