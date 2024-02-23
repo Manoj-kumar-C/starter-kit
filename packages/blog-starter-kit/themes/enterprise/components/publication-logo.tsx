@@ -36,7 +36,7 @@ export const PublicationLogo = ({ isSidebar }: { isSidebar?: boolean }) => {
 							isSidebar ? 'text-black dark:text-white' : 'text-white md:text-4xl'
 						}`}
 					>
-						Fresh Spar Blog's
+						Fresh Spar Blogs
 					</span>
 				)}
 			</Link>
